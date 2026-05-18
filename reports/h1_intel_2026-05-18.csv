@@ -1,13 +1,14 @@
 ID,Title,Severity,CWE,CVE(s),Bounty,Status,Disclosed,Submitted,Program,Reporter,Votes,URL
-3713682,IDOR: autotranslate.translateMessage Full Message Content Leak,Medium,Insecure Direct Object Reference (IDOR),,,resolved,2026-05-18,2026-05-05,Rocket.Chat,josan_george,0,https://hackerone.com/reports/3713682
+3589247,Unauthenticated File Upload to CDN,Medium,Improper Access Control - Generic,,,resolved,2026-05-18,2026-03-06,Enjin,ph0r3nsic,5,https://hackerone.com/reports/3589247
+3713682,IDOR: autotranslate.translateMessage Full Message Content Leak,Medium,Insecure Direct Object Reference (IDOR),,,resolved,2026-05-18,2026-05-05,Rocket.Chat,josan_george,1,https://hackerone.com/reports/3713682
 3734921,"Trailing-dot IPv4 URL bypasses IP-address guard, allows wildcard DNS SAN match",None,Business Logic Errors,CVE-2022-30115,,informative,2026-05-17,2026-05-14,curl,giant_anteater,4,https://hackerone.com/reports/3734921
 3736234,NULL pointer dereference in libcurl URL API redirect_url() with CURLU_DEFAULT_SCHEME,None,NULL Pointer Dereference,,,informative,2026-05-17,2026-05-14,curl,mulan_dh,2,https://hackerone.com/reports/3736234
 3462991,SQL Injection in Column Type Parameter Allows Arbitrary SQL Execution,High,SQL Injection,CVE-2026-45545,,resolved,2026-05-15,2025-12-12,Nextcloud,suul,45,https://hackerone.com/reports/3462991
 3725659,Kerberos/SPNEGO Connection Reuse Vulnerability,None,,,,duplicate,2026-05-14,2026-05-10,curl,rootofpi_ramesh,17,https://hackerone.com/reports/3725659
-3577145,QuickSight Authorization Bypass: Chat Agents Accessible Despite Custom Permissions Denial,None,,,,resolved,2026-05-12,2026-03-04,AWS VDP,jcow,49,https://hackerone.com/reports/3577145
-3723002,another liberapay member team twitter account broken Link Hijacking via Expired Twitter Account Link,None,Open Redirect,,,informative,2026-05-09,2026-05-09,Liberapay,rox-11,70,https://hackerone.com/reports/3723002
+3577145,QuickSight Authorization Bypass: Chat Agents Accessible Despite Custom Permissions Denial,None,,,,resolved,2026-05-12,2026-03-04,AWS VDP,jcow,50,https://hackerone.com/reports/3577145
+3723002,another liberapay member team twitter account broken Link Hijacking via Expired Twitter Account Link,None,Open Redirect,,,informative,2026-05-09,2026-05-09,Liberapay,rox-11,71,https://hackerone.com/reports/3723002
 3721519,Liberapay member team twitter account broken Link Hijacking via Expired Twitter Account Link,None,Open Redirect,,,resolved,2026-05-09,2026-05-08,Liberapay,rox-11,61,https://hackerone.com/reports/3721519
-3511998,Private circle can be added to another circle via API despite visibility restriction,Low,Insecure Direct Object Reference (IDOR),CVE-2026-45155,150,resolved,2026-05-08,2026-01-16,Nextcloud,vidang04,67,https://hackerone.com/reports/3511998
+3511998,Private circle can be added to another circle via API despite visibility restriction,Low,Insecure Direct Object Reference (IDOR),CVE-2026-45155,150,resolved,2026-05-08,2026-01-16,Nextcloud,vidang04,68,https://hackerone.com/reports/3511998
 3304830,Files drop share links for end-to-end encrypted folders allowed to drop files into other folders of the share owner ,Low,Insecure Direct Object Reference (IDOR),CVE-2026-45159,,resolved,2026-05-08,2025-08-19,Nextcloud,0x0doteth,52,https://hackerone.com/reports/3304830
 3521434,View-only guests could see deleted Collectives pages in the trashbin,Low,Improper Access Control - Generic,CVE-2026-45154,,resolved,2026-05-08,2026-01-23,Nextcloud,yoyomiski,55,https://hackerone.com/reports/3521434
 3717365,mbedTLS private-key blob null-termination asymmetry in lib/vtls/mbedtls.c (mbed_load_privkey),None,Improper Null Termination,,,informative,2026-05-07,2026-05-06,curl,shecantcode2,41,https://hackerone.com/reports/3717365
@@ -48,4 +49,3 @@ ID,Title,Severity,CWE,CVE(s),Bounty,Status,Disclosed,Submitted,Program,Reporter,
 3564655,Complete authentication bypass to admin permissions,Critical,SQL Injection,CVE-2026-29198,,resolved,2026-04-22,2026-02-20,Rocket.Chat,npc,86,https://hackerone.com/reports/3564655
 3486747,"SVG filter primitives bypass remote image blocking, enabling email tracking without consent.",Medium,Privacy Violation,,,resolved,2026-04-20,2026-01-04,Nextcloud,nullcathedral,53,https://hackerone.com/reports/3486747
 3590586,"position: fixed !important bypasses CSS sanitizer's fixed-position mitigation, enabling full-viewport phishing overlays.",Medium,Resource Injection,,,resolved,2026-04-20,2026-03-07,Nextcloud,nullcathedral,43,https://hackerone.com/reports/3590586
-3590583,Unquoted body background attribute enables CSS injection that bypasses remote image blocking,Medium,Resource Injection,,,resolved,2026-04-20,2026-03-07,Nextcloud,nullcathedral,33,https://hackerone.com/reports/3590583

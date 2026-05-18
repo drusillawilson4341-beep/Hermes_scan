@@ -36,6 +36,17 @@
       "type": "category"
     },
     {
+      "id": "h1-3589247",
+      "label": "Unauthenticated File Upload to CDN",
+      "type": "tool",
+      "severity": "Medium",
+      "program": "enjin",
+      "reporter": "ph0r3nsic",
+      "cwe": "Improper Access Control - Generic",
+      "stars": 5,
+      "url": "https://hackerone.com/reports/3589247"
+    },
+    {
       "id": "h1-3713682",
       "label": "IDOR: autotranslate.translateMessage Full Message Content Leak",
       "type": "tool",
@@ -43,7 +54,7 @@
       "program": "rocket_chat",
       "reporter": "josan_george",
       "cwe": "Insecure Direct Object Reference (IDOR)",
-      "stars": 0,
+      "stars": 1,
       "url": "https://hackerone.com/reports/3713682"
     },
     {
@@ -98,7 +109,7 @@
       "program": "aws_vdp",
       "reporter": "jcow",
       "cwe": null,
-      "stars": 49,
+      "stars": 50,
       "url": "https://hackerone.com/reports/3577145"
     },
     {
@@ -109,7 +120,7 @@
       "program": "liberapay",
       "reporter": "rox-11",
       "cwe": "Open Redirect",
-      "stars": 70,
+      "stars": 71,
       "url": "https://hackerone.com/reports/3723002"
     },
     {
@@ -131,7 +142,7 @@
       "program": "nextcloud",
       "reporter": "vidang04",
       "cwe": "Insecure Direct Object Reference (IDOR)",
-      "stars": 67,
+      "stars": 68,
       "url": "https://hackerone.com/reports/3511998"
     },
     {
@@ -573,17 +584,6 @@
       "cwe": "Resource Injection",
       "stars": 43,
       "url": "https://hackerone.com/reports/3590586"
-    },
-    {
-      "id": "h1-3590583",
-      "label": "Unquoted body background attribute enables CSS injection that bypasses remote im",
-      "type": "tool",
-      "severity": "Medium",
-      "program": "nextcloud",
-      "reporter": "nullcathedral",
-      "cwe": "Resource Injection",
-      "stars": 33,
-      "url": "https://hackerone.com/reports/3590583"
     }
   ],
   "links": [
@@ -606,6 +606,10 @@
     {
       "source": "hackerone-vulnerabilities",
       "target": "sev-critical"
+    },
+    {
+      "source": "sev-medium",
+      "target": "h1-3589247"
     },
     {
       "source": "sev-medium",
@@ -802,10 +806,6 @@
     {
       "source": "sev-medium",
       "target": "h1-3590586"
-    },
-    {
-      "source": "sev-medium",
-      "target": "h1-3590583"
     }
   ]
 }
