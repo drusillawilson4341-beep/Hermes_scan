@@ -1,11 +1,6 @@
 {
   "nodes": [
     {
-      "id": "osint-scanning-tools",
-      "label": "OSINT Scanning Tools",
-      "type": "parent"
-    },
-    {
       "id": "hackerone-vulnerabilities",
       "label": "HackerOne Vulnerabilities",
       "type": "parent"
